@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    transition: all 0.2s linear;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+}
+
+body {
+    background: #ef4923;
+}
+
+.hero {
+    background-color: #1f2937;
+    padding: 0rem 9%;
+    padding-top: 1rem;
+    padding-bottom: 7rem;
+}
+
+.hero .header-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.hero .header-1 a {
+    font-size: 1.5rem;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.hero .header-1 nav a {
+    font-size: 1.125rem;
+    color: #e5e7eb;
+    padding-right: 2rem;
+}
+
+.hero .header-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 0 2rem;
+    padding-top: 6rem;
+}
+
+.hero .header-2 .content {
+    flex: 1 1 40rem;
+}
+
+.hero .header-2 .content h1 {
+    font-size: 3rem;
+    color: #f9faf8;
+    font-weight: bolder;
+    line-height: 1rem;
+    padding-bottom: 2rem;
+}
+
+.hero .header-2 .content p {
+    font-size: 1.125rem;
+    color: #e5e7eb;
+    line-height: 1rem;
+}
+
+.hero .header-2 .content button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    font-size: 1.5rem;
+    background-color: #3882f6;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.hero .header-2 .image {
+    flex: 1 1 40rem;
+}
+
