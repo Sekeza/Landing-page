@@ -90,3 +90,10 @@ body {
     flex: 1 1 40rem;
 }
 
+.hero .header-2 .image img {
+    height: 25rem;
+    width: 60rem;
+    object-fit: cover;
+    padding-right: 2rem;
+}
+
