@@ -97,3 +97,17 @@ body {
     padding-right: 2rem;
 }
 
+.footer {
+    background-color: #1f2937;
+    padding: 0rem 9%;
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+}
+
+.footer div {
+    font-size: 1.5rem;
+    color: #f9faf8;
+    line-height: 1rem;
+    text-align: center;
+}
+
