@@ -17,9 +17,23 @@ html {
 }
 
 body {
-    background: #ef4923;
+    /* background: #ef4923; */
+    background-color: #fff;
 }
 
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    font-size: 1.5rem;
+    background-color: none;
+    /* background-color: #0b51c2; */
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
 .hero {
     background-color: #1f2937;
     padding: 0rem 9%;
@@ -35,15 +49,19 @@ body {
 }
 
 .hero .header-1 a {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: #f9faf8;
     font-weight: bold;
 }
 
 .hero .header-1 nav a {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     color: #e5e7eb;
     padding-right: 2rem;
+}
+
+.hero .header-1 nav a:hover {
+    color: #ef4923; 
 }
 
 .hero .header-2 {
@@ -74,16 +92,12 @@ body {
 }
 
 .hero .header-2 .content button {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.8rem 2rem;
-    font-size: 1.5rem;
-    background-color: #3882f6;
-    color: #fff;
-    font-weight: bold;
-    border-radius: 0.25rem;
-    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
     cursor: pointer;
+    background-color: #1868e7;
+}
+
+.hero .header-2 .content button:hover {
+   background-color: #ef4923; 
 }
 
 .hero .header-2 .image {
@@ -97,6 +111,79 @@ body {
     padding-right: 2rem;
 }
 
+.product {
+    padding: 5rem 9%;
+}
+
+.product h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #000;
+    padding: 2rem 0;
+}
+
+.product h2 span {
+    color: #ef4923;
+}
+
+.product .item-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 2rem;
+    width: 90rem;
+    padding-left: 6rem;
+    margin: auto;
+}
+
+.product .item-container .item {
+    text-align: center;
+}
+.product .item-container .item  img {
+    height: 20rem;
+    width: 100%;
+    border: 0.1rem solid #388;
+    border-radius: 0.3rem;
+}
+
+.product .item-container .item span {
+    font-size: 1.7rem;
+    color: #222;
+    padding: 3rem 0;
+}
+
+.product .item-container .item h3 {
+    font-size: 1.7rem;
+    color: #666;
+}
+
+.quote {
+    background-color: rgb(230, 222, 222);
+    padding: 5rem 9%;
+}
+
+.quote div {
+   width: 81rem;
+   margin: auto;
+   padding: 3rem 1rem;
+   text-align: justify;
+}
+
+.quote div q {
+    font-size: 1.7rem;
+    color: #1f2937;
+    font-style: italic;
+    line-height: 2.5rem;
+    padding: 2rem 0;
+}
+
+.quote div h3 {
+    font-size: 1.7rem;
+    color: #222;
+    font-weight: lighter;
+    padding-top: 2rem;
+    text-align: right;
+}
+
 .sign-up {
     background-color: #fff;
     padding: 5rem 9%;
@@ -108,15 +195,42 @@ body {
     justify-content: space-between;
     width: 107rem;
     padding: 2rem;
-    background-color: #3882f6;
+    padding: 2rem 7rem;
+    background-color: #1868e7;
     border-radius: 0.35rem;
     margin: auto;
 }
 
 .sign-up .box-container .box {
-    padding: 2rem 6rem;
+    padding: 2rem 5rem;
+}
+
+.sign-up .box-container .box h2 {
+    font-size: 1.7rem;
+    color: #f9faf8;
     
 }
+
+.sign-up .box-container .box p {
+    font-size: 1.5rem;
+    color: #f9faf8;
+    line-height: 0.8rem;
+    padding: 1rem 0;
+}
+
+.sign-up .box-container .btn {
+    font-size: 1.5rem;
+    color: #f9faf8;
+    line-height: 1rem;
+    padding: 1rem 2rem;
+    background-color: #1868e7;
+    margin-right: 7rem;
+    border: 0.05rem solid #fff;
+}
+
+.sign-up .box-container .btn:hover {
+    background-color: #ef4923; 
+ }
 
 
 .footer {
