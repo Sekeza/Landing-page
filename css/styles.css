@@ -21,7 +21,6 @@ html {
 }
 
 body {
-    /* background: #ef4923; */
     background-color: #fff;
 }
 
@@ -31,7 +30,6 @@ body {
     padding: 0.8rem 2rem;
     font-size: 1.5rem;
     background-color: none;
-    /* background-color: #0b51c2; */
     color: #fff;
     font-weight: bold;
     border-radius: 0.25rem;
@@ -249,5 +247,9 @@ body {
     color: #f9faf8;
     line-height: 1rem;
     text-align: center;
+}
+
+.footer div span {
+    color: #ef4923; 
 }
 
