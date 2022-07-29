@@ -97,6 +97,28 @@ body {
     padding-right: 2rem;
 }
 
+.sign-up {
+    background-color: #fff;
+    padding: 5rem 9%;
+}
+
+.sign-up .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 107rem;
+    padding: 2rem;
+    background-color: #3882f6;
+    border-radius: 0.35rem;
+    margin: auto;
+}
+
+.sign-up .box-container .box {
+    padding: 2rem 6rem;
+    
+}
+
+
 .footer {
     background-color: #1f2937;
     padding: 0rem 9%;
