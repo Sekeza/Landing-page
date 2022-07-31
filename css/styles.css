@@ -50,10 +50,18 @@ body {
     padding: 0 2rem;
 }
 
-.hero .header-1 a {
-    font-size: 1.7rem;
-    color: #f9faf8;
+.hero .header-1 .logo {
+    font-size: 3.5rem;
+    background-color: #f9faf8;
+    width: 3rem;
     font-weight: bold;
+    
+    padding: 0 0.2rem;
+}
+
+.hero .header-1 a i {
+    color: #ef4923;
+    text-align: center;
 }
 
 .hero .header-1 nav a {
